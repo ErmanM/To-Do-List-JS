@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    
+
+
+    <h1 id="title">To do list</h1>
+    <div class="main">
+      <!-- <form id="todoForm" onsubmit="save()"> -->
+        <div class="input">
+          <p id="required">*Tittle is required</p>
+          <input placeholder="Title" name="title" type="text" alt="type text here" id="tittle">
+        </div>
+        <div class="content">
+          <textarea placeholder="Description" name="description" id="description"></textarea>
+          <select name="category" id="category">
+            <option value="">Category</option>
+            <option value="School">School</option>
+            <option value="Gym">Gym</option>
+            <option value="Work">Work</optermion>
+          </select>
+          <input name="id" id="id" value="" hidden>
+          <button type="button" onclick="save()" id="addBtn">Save</button>
+                  
+        </div>
+
+      <!-- </form> -->
+      <div class="list">
+        <ul id="ul">
+        </ul>
+      </div>
+
+    </div>
+
+
+    
+  
+
+ <script src="index.js"></script>   
+</body>
+</html>

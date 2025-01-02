@@ -1,0 +1,129 @@
+body {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family:monospace ;
+    background-color: lightslategray;
+    
+    
+}
+
+#required{
+    color: red;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    justify-content: center;
+}
+
+.show{
+    display: block !important; 
+}
+
+#title{
+    text-align: center;
+    color:blueviolet;
+    
+}
+
+#edit{
+    
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aquamarine;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+#delete{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(225, 250, 0);
+    padding: 5px;
+    margin-left: 350px;
+}
+
+.content{
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.edit{
+    background-color: black;
+}
+
+.list{
+    display: inline;
+}
+
+
+.main{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background-color: rgb(180, 154, 120);
+    border-radius: 3%;
+
+
+}
+
+#tittle{
+    font-size: 20px;
+    background-color: lightgreen;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 70%;
+    
+}
+
+#description{
+    position: relative;
+    display: flex;
+    background-color: black;
+    color: rgb(0, 231, 69);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    height: 200px;
+    width: fit-content;
+}
+
+
+#addBtn{
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    font-size: 25px;
+    font-family: monospace;
+    border-radius: 8%;
+    margin-left: 30px;
+}
+
+
+#ul {
+    display: grid;
+    justify-content: start;
+    text-align: start;
+}
+
+
+
+
+#category{
+    border-radius: 5%;
+    padding: 9px;
+    margin-left: 20px;
+    display: flex;
+    background-color: rgb(255, 123, 0);
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(65, 64, 64);
+}
